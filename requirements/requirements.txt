@@ -338,7 +338,7 @@ pyyaml==6.0
     #   receptorctl
 receptorctl==1.2.3
     # via -r /awx_devel/requirements/requirements.in
-redis==4.3.5
+redis==4.3.6
     # via
     #   -r /awx_devel/requirements/requirements.in
     #   django-redis
