@@ -58,7 +58,7 @@ azure-core==1.30.0
     #   azure-keyvault-keys
     #   azure-keyvault-secrets
     #   msrest
-azure-identity==1.15.0
+azure-identity==1.16.1
     # via -r /awx_devel/requirements/requirements.in
 azure-keyvault==4.2.0
     # via -r /awx_devel/requirements/requirements.in
@@ -96,7 +96,7 @@ click==8.1.7
     # via receptorctl
 constantly==23.10.4
     # via twisted
-cryptography==41.0.7
+cryptography==42.0.8
     # via
     #   -r /awx_devel/requirements/requirements.in
     #   adal
@@ -209,7 +209,7 @@ hyperlink==21.0.0
     # via
     #   autobahn
     #   twisted
-idna==3.6
+idna==3.7
     # via
     #   hyperlink
     #   requests
@@ -455,7 +455,7 @@ referencing==0.33.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.31.0
+requests==2.32.2
     # via
     #   -r /awx_devel/requirements/requirements.in
     #   adal
@@ -556,7 +556,7 @@ typing-extensions==4.9.0
     #   pydantic-core
     #   setuptools-scm
     #   twisted
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   botocore
     #   kubernetes
